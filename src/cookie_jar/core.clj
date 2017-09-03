@@ -21,14 +21,20 @@
 (defmethod action :take-one [_ state]
   (update state ::cookies #(if (>= % 1) (- % 1) %)))
 
-(comment (stest/instrument `action))
-
 (s/fdef do-actions
         :args (s/cat :state ::cookie-jar :actions (s/coll-of actions))
         :ret ::cookie-jar)
 
 (defn do-actions [state actions]
   (reduce (fn [s a] (action a s)) state actions))
+
+(def cookies (atom #::{:cookies 10}))
+
+(swap! cookies (fn [s] (action :grandma s)))
+(swap! cookies (fn [s] (action :cookie-monster s)))
+(swap! cookies (fn [s] (action :take-one s)))
+(swap! cookies (fn [s] (action :grandma s)))
+
 
 (comment
   (s/exercise ::cookies)
@@ -39,7 +45,7 @@
 
   (action :grandma jar)
 
-  (stest/check `action)
+  (stest/summarize-results (stest/check `action))
 
   (stest/check `do-actions)
 
