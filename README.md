@@ -1,6 +1,36 @@
-# cookie-jar
+# The Cookie Jar Challenge
 
-Playing with spec and application state.
+Handling application state is difficult. Different languages and paradigms have different ways for managing state. In this challenge, I would like to use a simple example and see how different people implement the state handling. 
+
+## The Example: A cookie jar
+
+![A cookie jar](https://joyclark.org/img/thumbnail/cookie5.jpeg)
+
+The cookie jar is an entity whose state changes over time: sometimes someone takes a cookie out of the jar, sometimes someone adds cookies to the jar. Is it possible for someone to take cookies out of the jar at the same time? Who knows?
+
+The cookie jar can be empty, but there can never be a negative number of cookies...
+
+## The Usual Suspects
+
+![Cookie Monster](https://joyclark.org/img/thumbnail/cookiemonster.jpeg)
+
+If cookie monster gets ahold of the cookie jar, he will eat a lot of cookies. Maybe all of them, but probably more than one. Silly Cookie Monster.
+
+![Kitten](https://joyclark.org/img/thumbnail/kitten.jpeg)
+
+Kitten likes cookies, but she's a bit more conscious of her figure, so she's likely to only eat one cookie.
+
+![Grandma](https://joyclark.org/img/thumbnail/grandma.jpeg)
+
+We all love grandma! She doesn't like to eat cookies, but she's always adding cookies to the jar. After all, you look a bit too skinny!
+
+## The Implementations
+
+* Clojure (this repo)
+* [C#](https://github.com/programming-wolf/CookieJar)
+
+Do you have an example? Let me know!
+
 
 ## License
 
