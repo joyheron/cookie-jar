@@ -32,6 +32,8 @@ We all love grandma! She doesn't like to eat cookies, but she's always adding co
 * [Prolog](https://gist.github.com/bendisposto/0704b341f2a78b8f82e4653ba769636e)
 * [Commodore 64 Basic](https://twitter.com/jbendisposto/status/904662544245297152)
 * [Java](https://gist.github.com/michael-simons/2628bb782dec9058efb1e94a6f252047)
+* [Ruby](https://intern.innoq.com/aws/console)
+* [Groovy](https://groovyconsole.appspot.com/script/5163766501081088)
 
 Do you have an example? Let me know!
 
