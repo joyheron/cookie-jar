@@ -30,6 +30,7 @@ We all love grandma! She doesn't like to eat cookies, but she's always adding co
 * [C#](https://github.com/programming-wolf/CookieJar)
 * [Haskell](https://gist.github.com/joyclark/843932d96dbf99ab8438cb9de485d10f)
 * [Elixir](https://github.com/mmainz/cookie_jar)
+* [Scala](https://gist.github.com/joyclark/acb1651ff8b6adafe91986390e172845)
 * [Prolog](https://gist.github.com/bendisposto/0704b341f2a78b8f82e4653ba769636e)
 * [Commodore 64 Basic](https://twitter.com/jbendisposto/status/904662544245297152)
 * [Java](https://gist.github.com/michael-simons/2628bb782dec9058efb1e94a6f252047)
