@@ -28,6 +28,7 @@ We all love grandma! She doesn't like to eat cookies, but she's always adding co
 
 * Clojure (this repo)
 * [C#](https://github.com/programming-wolf/CookieJar)
+* [Haskell](https://gist.github.com/joyclark/843932d96dbf99ab8438cb9de485d10f)
 * [Elixir](https://github.com/mmainz/cookie_jar)
 * [Prolog](https://gist.github.com/bendisposto/0704b341f2a78b8f82e4653ba769636e)
 * [Commodore 64 Basic](https://twitter.com/jbendisposto/status/904662544245297152)
